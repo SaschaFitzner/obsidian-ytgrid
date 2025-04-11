@@ -1,0 +1,10 @@
+{
+  "id": "ytgrid",
+  "name": "ytgrid",
+  "version": "1.0.0",
+  "minAppVersion": "0.12.0",
+  "description": "Zeigt YouTube-Links als Grid mit Vorschaubildern und Notizfunktion an.",
+  "author": "Roo",
+  "authorUrl": "https://fitzner.io",
+  "main": "main.js"
+}
