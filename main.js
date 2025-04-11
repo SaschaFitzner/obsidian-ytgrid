@@ -24,7 +24,7 @@ module.exports = class YtGridPlugin extends Plugin {
 
     this.addSettingTab(new YtGridSettingTab(this.app, this));
 
-    this.registerMarkdownCodeBlockProcessor("youtubeGrid", async (source, el, ctx) => {
+    this.registerMarkdownCodeBlockProcessor("ytGrid", async (source, el, ctx) => {
       const urls = source
         .split('\n')
         .map(line => line.trim())
